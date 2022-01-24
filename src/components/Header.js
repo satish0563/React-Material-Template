@@ -139,7 +139,9 @@ export default function App() {
   const handleOpen = () => {
     setOpenmobile(!openmobile);
   };
-
+  const handleOpen1 = () => {
+    setOpenmobile(!openmobile);
+  };
  
   const menuId = 'primary-search-account-menu';
   const renderMenu = (

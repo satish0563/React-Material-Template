@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import CssBaseline from '@mui/material/CssBaseline';
+
 import Typography from '@mui/material/Typography';
 import { styled, useTheme,alpha } from '@mui/material/styles';
 const drawerWidth = 240;
@@ -34,13 +34,8 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   
 
 export default function inboxComponent() {
- 
- 
   return (
-
-
-     
-      <Main>
+       <Main>
         <DrawerHeader />
         <Typography paragraph>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -56,8 +51,7 @@ export default function inboxComponent() {
           consectetur lorem. Velit sed ullamcorper morbi tincidunt. Lorem donec massa
           sapien faucibus et molestie ac.
         </Typography>
-       
-      </Main>
+       </Main>
 
   );
 }
